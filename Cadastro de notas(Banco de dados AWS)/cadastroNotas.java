@@ -32,8 +32,8 @@ public class cadastroNotas extends javax.swing.JFrame {
     private void conectarBD() {
         try {
             String url = "jdbc:mysql://projeto.csst1irsxxi6.us-east-1.rds.amazonaws.com/projeto";
-            String usuario = "admin";  // Substitua pelo seu usuário
-            String senha = "senac#2024";        // Substitua pela sua senha
+            String usuario = "";
+            String senha = "";
 
             conn = DriverManager.getConnection(url, usuario, senha);
             JOptionPane.showMessageDialog(this, "Conexão ao banco de dados estabelecida.");
